@@ -5,6 +5,7 @@ import './Contact.css'
 function Contact(props) {
   return (
     <Layout>
+      <div className='contact-container'>
       <div>
         <h3>Contact Info</h3>
         <div>Email: jakestiles99@gmail.com</div>
@@ -17,18 +18,20 @@ function Contact(props) {
       <form className='contact-form'
         action="https://getform.io/f/f2959f5e-fbfc-4b7f-95cb-5c3f857d49c6"
         method="POST"
-      >
+        >
+          <div className='form-title'>Contact Form</div>
         <label className='name-input'>Name: 
-        <input type="text" name="name" />
+        <input className='n-input' type="text" name="name" />
         </label>
         <label className='email-input'>Email: 
-        <input type="email" name="email" />
+        <input className='e-input' type="email" name="email" />
         </label>
         <label className='message-input'>Message: 
-        <input type="text" name="message" />
+        <input className='m-input' type="text" name="message" />
         </label>
         <button className='contact-button' type="submit">Send</button>
-      </form>
+        </form>
+        </div>
     </Layout>
   );
 }
