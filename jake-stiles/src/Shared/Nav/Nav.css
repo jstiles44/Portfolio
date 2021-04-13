@@ -3,15 +3,29 @@
   background-color: #33353C;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   z-index: 2;
   top: 0;
   position: sticky;
   height: 80px;
   font-family: "Lato", sans-serif;
   border-bottom: solid 1px grey;
+  font-family: 'Zen Dots', cursive;
 }
 
 a {
   text-decoration: none;
-  color: #73D499;
+  color: #f4d35e;
+}
+
+.link {
+  margin: 5px;
+}
+
+.links-container {
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 10px;
 }
