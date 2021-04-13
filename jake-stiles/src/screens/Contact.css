@@ -1,0 +1,15 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  border: solid 2px #f4d35e;
+  width: 400px;
+  align-self: center;
+  justify-self: center;
+}
+
+.contact-button {
+  width: 50px;
+  align-self: center;
+  margin: 10px;
+}

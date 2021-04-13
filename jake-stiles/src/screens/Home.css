@@ -1,7 +1,9 @@
 .home-container {
-margin: 50px;
+margin-top: 50px;
+max-height: 80vh
 }
 
-.p1 {
+.p1, .p2, .p3, .p4, .p5 {
   margin: 50px;
+  color: #f4d35e
 }
