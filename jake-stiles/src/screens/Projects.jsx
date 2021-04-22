@@ -35,11 +35,14 @@ function Projects(props) {
               Code Repository
             </a>
             <div>
-              Description: The Barbacide App is a useful tool for a cover band.
-              This app allows the user to choose a song and have the lyrics
-              displayed. This is ideal for musicians who sing and play an
-              instrument simultaneously
+            Description: The Barbacide App is a useful tool for a cover band.
+            This app allows the user to choose a song and have the lyrics
+            displayed. This is ideal for musicians who sing and play an
+            instrument simultaneously
             </div>
+          <div className="stack">
+          Stack:  React.js | External API | CSS Flexbox | Postman API Testing
+          </div>
           </div>
         <div className="playlist-div">
           <h3>SongsYOÜ</h3>
@@ -73,6 +76,10 @@ function Projects(props) {
             Description: SongsYOÜ is an app that allows users to search a given
             song bank and add songs to their personal playlists. Songs are
             clickable, playable, and details render upon click
+
+           <div className="stack" >
+           Stack:  React.js | Express.js | MongoDB | Node | CSS Flexbox
+           </div>
           </div>
         </div>
         <div className="record-review-div">
@@ -107,6 +114,10 @@ function Projects(props) {
             Description: Record Review is a RESTful web application designed to
             connect music listeners. Users can add albums to the site and write
             reviews on albums added by other users
+
+            <div className="stack">
+            Stack: React.js | Ruby on Rails | postgreSQL | CSS Flexbox
+            </div>
           </div>
         </div>
       </div>
