@@ -1,6 +1,7 @@
 .contact-container {
   display: flex;
   flex-direction: column;
+  color: #f4d35e;
 }
 
 .contact-form {
