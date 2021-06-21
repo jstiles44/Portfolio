@@ -10,7 +10,7 @@ function Resume(props) {
           className='resume'
           height="700"
           width="800"
-          src="https://docs.google.com/document/d/e/2PACX-1vS7UiHakYhdwVMGDsN4kNjxJqCOzFT-TR_o5aikkTfpUqMN83zRfYpv9Xo92fou0WqZSR6C3zh-j2wo/pub?embedded=true"></iframe>
+          src="https://drive.google.com/file/d/1_P8GU2O2rKzM5yaPSrddHd-p0rJ3dEcu/preview" width="640" height="480" allow="autoplay"></iframe>
       </div>
       </Layout>
   );
