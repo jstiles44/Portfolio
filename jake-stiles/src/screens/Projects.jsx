@@ -1,6 +1,15 @@
 import React from "react";
 import Layout from "../Shared/Layout/Layout.jsx";
 import "./Projects.css";
+import img1 from "../Images/barbacideapp.png";
+import img2 from "../Images/barbacideapp2.png";
+import img3 from "../Images/barbacideapp3.png";
+import img4 from "../Images/songsyou.png";
+import img5 from "../Images/songsyou2.png";
+import img6 from "../Images/songsyou3.png";
+import img7 from "../Images/recordreview.png";
+import img8 from "../Images/recordreview2.png";
+import img9 from "../Images/recordreview3.png";
 
 function Projects(props) {
   return (
@@ -11,17 +20,17 @@ function Projects(props) {
           <div>
             <img
               id="project-image"
-              src={`https://photos.smugmug.com/Barbacideapp/i-5fsrj32/0/7f10b7fd/X3/barbacideapp-X3.png`}
+              src={img1}
               alt="Barbacide"
           />
               <img
               id="project-image"
-              src={`https://photos.smugmug.com/Barbacideapp/i-GgfHh6w/0/2a2cb88c/M/Screen%20Shot%202021-04-22%20at%201.19.15%20PM-M.png`}
+              src={img2}
               alt="Barbacide"
           />
            <img
               id="project-image"
-              src={`https://photos.smugmug.com/Barbacideapp/i-ftf7RVx/0/8984f3ce/M/Screen%20Shot%202021-04-22%20at%201.19.41%20PM-M.png`}
+              src={img3}
               alt="Barbacide"
             />
             </div>
@@ -49,17 +58,17 @@ function Projects(props) {
           <div>
           <img
             id="project-image"
-            src={`https://photos.smugmug.com/Songsyou/i-9FCDRCM/0/47497c44/S/Screen%20Shot%202021-04-22%20at%201.23.19%20PM-S.png`}
+            src={img6}
             alt="Barbacide"
           />
           <img
             id="project-image"
-            src={`https://photos.smugmug.com/Songsyou/i-mk8mn3S/0/9399b6b6/X3/songsyou-X3.png`}
+            src={img4}
             alt="Barbacide"
           />
             <img
             id="project-image"
-            src={`https://photos.smugmug.com/Songsyou/i-PsRhqkW/0/959b4370/S/Screen%20Shot%202021-04-22%20at%201.23.46%20PM-S.png`}
+            src={img5}
             alt="Barbacide"
             />
             </div>
@@ -87,17 +96,17 @@ function Projects(props) {
           <div>
           <img
             id="project-image"
-            src={`https://photos.smugmug.com/Recordreview/i-7SLV6zf/0/0713213c/X3/recordreview-X3.png`}
+            src={img7}
             alt="Barbacide"
           />
            <img
             id="project-image"
-            src={`https://photos.smugmug.com/Recordreview/i-9CdZwcW/0/78c78a93/S/Screen%20Shot%202021-04-22%20at%201.21.44%20PM-S.png`}
+            src={img8}
             alt="Barbacide"
           />
             <img
             id="project-image"
-            src={`https://photos.smugmug.com/Recordreview/i-F3qPqFN/0/3282ba14/S/Screen%20Shot%202021-04-22%20at%201.22.12%20PM-S.png`}
+            src={img9}
             alt="Barbacide"
             />
             </div>
