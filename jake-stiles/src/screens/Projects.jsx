@@ -34,7 +34,7 @@ function Projects(props) {
               alt="Barbacide"
             />
             </div>
-            <a className="live-site" href="https://barbacide.netlify.app">
+            <a className="live-site" href="https://barbacide-app.netlify.app">
               Live Site
             </a>
             <a
